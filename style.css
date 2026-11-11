@@ -556,3 +556,52 @@ footer {
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(260px, 300px));
 }
+/* Estilo da Logo no Cabeçalho */
+.brand-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.brand-logo img {
+    height: 60px; /* Altura ideal para o cabeçalho de 90px */
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.brand-logo:hover img {
+    transform: scale(1.05); /* Efeito suave ao passar o mouse */
+}
+
+/* Ajuste para telas menores (Celular) */
+@media (max-width: 900px) {
+    .brand-logo img {
+        height: 45px; /* Logo um pouco menor no celular */
+    }
+}
+
+/* Estilo da Logo no Rodapé */
+.footer-logo-link {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    height: 80px; /* Logo um pouco maior no rodapé para dar destaque */
+    width: auto;
+    object-fit: contain;
+    transition: opacity 0.3s ease;
+}
+
+.footer-logo:hover {
+    opacity: 0.8; /* Efeito suave ao passar o mouse */
+}
+
+.footer-brand p {
+    color: #a0aabf;
+    font-size: 16px;
+    margin-top: 10px;
+    max-width: 350px;
+    font-family: var(--font-body);
+}
