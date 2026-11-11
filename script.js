@@ -1,1 +1,16 @@
-const toggle=document.querySelector('.menu-toggle');const nav=document.querySelector('.nav');toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'×':'☰'});document.querySelectorAll('.nav a').forEach(link=>link.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.textContent='☰'}));document.getElementById('year').textContent=new Date().getFullYear();
+const menuToggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.nav');
+
+menuToggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+    menuToggle.textContent = nav.classList.contains('active') ? '✕' : '☰';
+});
+
+document.querySelectorAll('.nav a').forEach(link => {
+    link.addEventListener('click', () => {
+        nav.classList.remove('active');
+        menuToggle.textContent = '☰';
+    });
+});
+
+document.getElementById('year').textContent = new Date().getFullYear();

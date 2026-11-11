@@ -1,94 +1,168 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Conheça o portfólio de produtos do Laticínios São Tomé. Manteigas, requeijões, queijos e muito mais.">
-  <meta name="theme-color" content="#071b3b">
-  <title>Laticínios São Tomé | Portfólio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laticínios São Tomé | Tradição e Qualidade</title>
+    <meta name="description" content="Conheça o portfólio de produtos do Laticínios São Tomé. Manteigas, requeijões, queijos e muito mais.">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-header">
-  <a class="brand" href="#inicio" aria-label="Laticínios São Tomé - início">
-    <span class="brand-mark">SÃO <b>TOMÉ</b></span><small>BOA VISTA</small>
-  </a>
-  <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
-  <nav class="nav">
-    <a href="#inicio">Início</a><a href="#empresa">A empresa</a><a href="#produtos">Produtos</a><a href="#contato">Contato</a>
-  </nav>
-</header>
 
-<main>
-<section class="hero" id="inicio">
-  <div class="hero-shade"></div>
-  <div class="hero-content">
-    <span class="eyebrow">LATICÍNIOS SÃO TOMÉ</span>
-    <h1>Tradição que<br><em>conquista</em> pelo sabor.</h1>
-    <p>Qualidade e dedicação em cada produto, presentes na mesa e nos melhores momentos.</p>
-    <a class="button" href="#produtos">Conheça nossos produtos <span>→</span></a>
-  </div>
-  <div class="hero-note"><span></span> Qualidade que você confia</div>
-</section>
+    <!-- Cabeçalho -->
+    <header class="site-header">
+        <a href="#inicio" class="brand">
+            <span class="brand-mark">SÃO <b>TOMÉ</b></span>
+            <small>BOA VISTA</small>
+        </a>
+        <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+        <nav class="nav">
+            <a href="#inicio">Início</a>
+            <a href="#empresa">A Empresa</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
 
-<section class="intro section" id="empresa">
-  <div class="intro-image"><img src="assets/sobre.jpg" alt="Apresentação institucional do Laticínios São Tomé"></div>
-  <div class="intro-copy">
-    <span class="eyebrow">NOSSA HISTÓRIA</span>
-    <h2>Tradição e qualidade que você confia.</h2>
-    <p>Com 25 anos de história, o Laticínio São Tomé tem o compromisso de conquistar e manter a confiança dos nossos clientes todos os dias.</p>
-    <p>Nascemos do sonho de oferecer produtos lácteos de alta qualidade e hoje somos referência de sabor e excelência, presentes em diversos lares e comércios.</p>
-    <p>Crescemos de forma sólida e consistente, com dedicação aos processos produtivos e respeito aos parceiros e clientes.</p>
-    <div class="signature">Laticínios São Tomé</div>
-  </div>
-</section>
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <span class="eyebrow">LATICÍNIOS SÃO TOMÉ</span>
+            <h1>Tradição que<br><em>conquista</em> pelo sabor.</h1>
+            <p>Qualidade e dedicação em cada produto, presentes na mesa e nos melhores momentos.</p>
+            <a href="#produtos" class="btn btn-primary">Conheça nossos produtos <span>→</span></a>
+        </div>
+        <div class="hero-image">
+            <img src="assets/imagemsobre.jpg" alt="Apresentação Laticínios São Tomé">
+        </div>
+    </section>
 
-<section class="products section" id="produtos">
-  <div class="section-heading">
-    <span class="eyebrow">NOSSO PORTFÓLIO</span>
-    <h2>Produtos feitos para<br><em>estar à mesa.</em></h2>
-    <p>Conheça nossas linhas e opções para diferentes momentos e necessidades.</p>
-  </div>
-  <div class="product-grid">
-    <article class="product-card"><div class="product-photo"><img src="assets/manteigas-1.jpg" alt="Linha de manteigas São Tomé e Boa Vista"></div><div class="product-info"><span>01 / LINHA</span><h3>Manteigas</h3><p>Manteigas com sal São Tomé e Boa Vista, em diferentes apresentações, além de opção zero lactose e mistura de manteiga e margarina.</p><a href="#galeria-manteiga">Ver linha <b>↗</b></a></div></article>
-    <article class="product-card"><div class="product-photo"><img src="assets/requeijao.jpg" alt="Linha de requeijão cremoso"></div><div class="product-info"><span>02 / LINHA</span><h3>Requeijão</h3><p>Requeijão cremoso São Tomé e Boa Vista em potes, bisnaga, balde e barra.</p><a href="#galeria-requeijao">Ver linha <b>↗</b></a></div></article>
-    <article class="product-card"><div class="product-photo"><img src="assets/mussarela.jpg" alt="Mussarela e mussarelinha"></div><div class="product-info"><span>03 / LINHA</span><h3>Mussarela</h3><p>Mussarelinha em barra, mussarela em peça e queijo mussarela bolinha.</p><a href="#galeria-mussarela">Ver linha <b>↗</b></a></div></article>
-    <article class="product-card"><div class="product-photo"><img src="assets/parmesao.jpg" alt="Linha de queijo parmesão"></div><div class="product-info"><span>04 / LINHA</span><h3>Parmesão</h3><p>Queijo parmesão São Tomé em cunha, peça e ralado, além de opções Boa Vista.</p><a href="#galeria-parmesao">Ver linha <b>↗</b></a></div></article>
-    <article class="product-card"><div class="product-photo"><img src="assets/queijos-minas.jpg" alt="Queijo Minas padrão e frescal"></div><div class="product-info"><span>05 / LINHA</span><h3>Queijos Minas</h3><p>Queijo Minas Padrão fracionado ou peça, e Queijo Minas Frescal pequeno ou grande.</p><a href="#galeria-minas">Ver linha <b>↗</b></a></div></article>
-    <article class="product-card"><div class="product-photo"><img src="assets/especiais.jpg" alt="Provolone fresco, ricota e queijo de coalho"></div><div class="product-info"><span>06 / LINHA</span><h3>Especiais</h3><p>Provolone fresco defumado, ricota fresca com sal e queijo de coalho para espeto.</p><a href="#galeria-especiais">Ver linha <b>↗</b></a></div></article>
-  </div>
-</section>
+    <!-- Sobre a Empresa -->
+    <section class="section intro" id="empresa">
+        <div class="intro-image">
+            <div class="intro-placeholder">
+                <img src="assets/logo.png" alt="Logo Laticínios São Tomé" class="intro-logo">
+            </div>
+            <div class="accent-border"></div>
+        </div>
+        <div class="intro-copy">
+            <span class="eyebrow">NOSSA HISTÓRIA</span>
+            <h2>Tradição e qualidade que você confia.</h2>
+            <p>Com 25 anos de história, o Laticínio São Tomé tem o compromisso de conquistar e manter a confiança dos nossos clientes todos os dias.</p>
+            <p>Nascemos do sonho de oferecer produtos lácteos de alta qualidade e hoje somos referência de sabor e excelência, presentes em diversos lares e comércios.</p>
+            <p>Crescemos de forma sólida e consistente, com dedicação aos processos produtivos e respeito aos parceiros e clientes.</p>
+            <div class="signature">Laticínios São Tomé</div>
+        </div>
+    </section>
 
-<section class="catalog section">
-  <div class="section-heading compact"><span class="eyebrow">DETALHES DO CATÁLOGO</span><h2>Veja as apresentações.</h2><p>Consulte as imagens do catálogo para visualizar as embalagens e formatos.</p></div>
-  <div class="catalog-grid">
-    <figure id="galeria-manteiga"><img src="assets/manteigas-1.jpg" alt="Manteigas São Tomé e Boa Vista"><figcaption>Manteigas — opções e embalagens</figcaption></figure>
-    <figure><img src="assets/manteigas-2.jpg" alt="Outras apresentações de manteiga"><figcaption>Manteigas — outras apresentações</figcaption></figure>
-    <figure id="galeria-requeijao"><img src="assets/requeijao.jpg" alt="Apresentações de requeijão"><figcaption>Requeijão cremoso</figcaption></figure>
-    <figure id="galeria-mussarela"><img src="assets/mussarela.jpg" alt="Apresentações de mussarela"><figcaption>Mussarela e mussarelinha</figcaption></figure>
-    <figure id="galeria-parmesao"><img src="assets/parmesao.jpg" alt="Apresentações de parmesão"><figcaption>Queijo parmesão</figcaption></figure>
-    <figure id="galeria-minas"><img src="assets/queijos-minas.jpg" alt="Queijos Minas padrão e frescal"><figcaption>Queijos Minas</figcaption></figure>
-    <figure id="galeria-especiais"><img src="assets/especiais.jpg" alt="Provolone, ricota e queijo de coalho"><figcaption>Queijos especiais</figcaption></figure>
-  </div>
-</section>
+    <!-- Produtos -->
+    <section class="section products" id="produtos">
+        <div class="section-heading">
+            <span class="eyebrow">NOSSO PORTFÓLIO</span>
+            <h2>Produtos feitos para<br><em>estar à mesa.</em></h2>
+        </div>
 
-<section class="closing">
-  <span class="eyebrow">LATICÍNIOS SÃO TOMÉ</span>
-  <h2>Qualidade que faz parte<br>de bons momentos.</h2>
-  <a class="button button-light" href="#contato">Fale com a nossa equipe <span>→</span></a>
-</section>
-</main>
+        <!-- Manteigas -->
+        <div class="category-wrapper" id="manteiga">
+            <div class="category-header"><h3>Linha de Manteiga</h3></div>
+            <div class="product-grid">
+                <article class="product-card"><img src="assets/tablete.png" alt="Manteiga Barra 200g"><h4>Manteiga São Tomé com Sal Barra 200g</h4></article>
+                <article class="product-card"><img src="assets/Balde.png" alt="Manteiga Balde 10kg"><h4>Manteiga São Tomé com Sal Balde 10kg</h4></article>
+                <article class="product-card"><img src="assets/bv200g.png" alt="Manteiga Boa Vista 200g"><h4>Manteiga Boa Vista com Sal Pote 200g</h4></article>
+                <article class="product-card"><img src="assets/bv200gzero.webp" alt="Manteiga BV Zero"><h4>Manteiga Boa Vista Zero Lactose 200g</h4></article>
+                <article class="product-card"><img src="assets/mistura500g.webp" alt="Mistura Do Creme"><h4>Mistura de Manteiga e Margarina 500g</h4></article>
+            </div>
+        </div>
 
-<footer id="contato">
-  <div class="footer-main">
-    <div><a class="brand footer-brand" href="#inicio"><span class="brand-mark">SÃO <b>TOMÉ</b></span><small>BOA VISTA</small></a><p>Tradição, qualidade e sabor em produtos lácteos.</p></div>
-    <div class="footer-contact"><h3>Entre em contato</h3><p><strong>Laticínios São Tomé LTDA</strong></p><p>CNPJ: 00.858.087/0001-32</p><p>Rodovia MG 133, s/n — Km 28,5<br>Piau — MG, 36157-000</p></div>
-  </div>
-  <div class="copyright">© <span id="year"></span> Laticínios São Tomé. Todos os direitos reservados.</div>
-</footer>
-<script src="script.js"></script>
+        <!-- Requeijões -->
+        <div class="category-wrapper" id="requeijao">
+            <div class="category-header"><h3>Linha de Requeijão</h3></div>
+            <div class="product-grid">
+                <article class="product-card"><img src="assets/req200g.png" alt="Requeijão 200g"><h4>Requeijão Cremoso São Tomé 200g</h4></article>
+                <article class="product-card"><img src="assets/req420g.png" alt="Requeijão 420g"><h4>Requeijão Cremoso São Tomé 420g</h4></article>
+                <article class="product-card"><img src="assets/reqbisnaga.png" alt="Requeijão Bisnaga"><h4>Requeijão Cremoso São Tomé Bisnaga 1,8kg</h4></article>
+                <article class="product-card"><img src="assets/reqbalde.png" alt="Requeijão Balde"><h4>Requeijão Cremoso São Tomé Balde 3,6kg</h4></article>
+                <article class="product-card"><img src="assets/reqbarra.webp" alt="Requeijão BV Barra"><h4>Requeijão Boa Vista Barra</h4></article>
+                <article class="product-card"><img src="assets/req350bv.webp" alt="Requeijão BV 350g"><h4>Requeijão Cremoso Boa Vista 350g</h4></article>
+            </div>
+        </div>
+
+        <!-- Mussarela -->
+        <div class="category-wrapper" id="mussarela">
+            <div class="category-header"><h3>Linha de Mussarela</h3></div>
+            <div class="product-grid">
+                <article class="product-card"><img src="assets/mussarelinha.webp" alt="Mussarelinha ST"><h4>Mussarelinha São Tomé Barra</h4></article>
+                <article class="product-card"><img src="assets/mussST.webp" alt="Mussarela ST Peça"><h4>Mussarela São Tomé Peça</h4></article>
+                <article class="product-card"><img src="assets/mussarelinhabv.webp" alt="Mussarelinha BV"><h4>Mussarelinha Boa Vista Barra</h4></article>
+                <article class="product-card"><img src="assets/mussBV.webp" alt="Mussarela BV Peça"><h4>Mussarela Boa Vista Peça</h4></article>
+                <article class="product-card"><img src="assets/bolinha.webp" alt="Mussarela Bolinha"><h4>Queijo Mussarela São Tomé Bolinha</h4></article>
+            </div>
+        </div>
+
+        <!-- Parmesão -->
+        <div class="category-wrapper" id="parmesao">
+            <div class="category-header"><h3>Linha de Parmesão</h3></div>
+            <div class="product-grid">
+                <article class="product-card"><img src="assets/cunhast.png" alt="Parmesão ST Cunha"><h4>Queijo Parmesão São Tomé Cunha</h4></article>
+                <article class="product-card"><img src="assets/parmesaopeca.webp" alt="Parmesão ST Peça"><h4>Queijo Parmesão São Tomé Peça</h4></article>
+                <article class="product-card"><img src="assets/ralado1kg.png" alt="Parmesão Ralado 1kg"><h4>Queijo Parmesão São Tomé Ralado 1kg</h4></article>
+                <article class="product-card"><img src="assets/ralado2kg.png" alt="Parmesão Ralado 2kg"><h4>Queijo Parmesão São Tomé Ralado 2kg</h4></article>
+                <article class="product-card"><img src="assets/cunhabv.webp" alt="Parmesão BV Cunha"><h4>Queijo Parmesão Boa Vista Cunha</h4></article>
+                <article class="product-card"><img src="assets/raladobv40g.png" alt="Parmesão BV 40g"><h4>Queijo Parmesão Boa Vista Ralado 40g</h4></article>
+            </div>
+        </div>
+
+        <!-- Minas -->
+        <div class="category-wrapper" id="minas">
+            <div class="category-header"><h3>Queijo Minas Padrão</h3></div>
+            <div class="product-grid">
+                <article class="product-card"><img src="assets/meialua.png" alt="Minas Padrão Fracionado"><h4>Queijo Minas Padrão Fracionado</h4></article>
+                <article class="product-card"><img src="assets/padrao.png" alt="Minas Padrão Peça"><h4>Queijo Minas Padrão Peça</h4></article>
+            </div>
+            
+            <div class="category-header" style="margin-top: 40px;"><h3>Queijo Minas Frescal</h3></div>
+            <div class="product-grid">
+                <article class="product-card"><img src="assets/frescal500.png" alt="Minas Frescal Pequeno"><h4>Queijo Minas Frescal Pequeno</h4></article>
+                <article class="product-card"><img src="assets/frescal800.webp" alt="Minas Frescal Grande"><h4>Queijo Minas Frescal Grande</h4></article>
+            </div>
+        </div>
+
+        <!-- Especiais -->
+        <div class="category-wrapper" id="outros">
+            <div class="category-header"><h3>Provolone</h3></div>
+            <div class="product-grid">
+                <article class="product-card"><img src="assets/provolonep.png" alt="Provolone Pequeno"><h4>Provolone Fresco Defumado Pequeno</h4></article>
+                <article class="product-card"><img src="assets/provoloneg.png" alt="Provolone Grande"><h4>Provolone Fresco Defumado Grande</h4></article>
+            </div>
+
+            <div class="category-header" style="margin-top: 40px;"><h3>Ricota e Coalho</h3></div>
+            <div class="product-grid">
+                <article class="product-card"><img src="assets/ricota.png" alt="Ricota Fresca"><h4>Ricota Fresca São Tomé com Sal</h4></article>
+                <article class="product-card"><img src="assets/coalho.webp" alt="Queijo de Coalho"><h4>Queijo de Coalho São Tomé Espeto c/ 6 und.</h4></article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contato">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <span class="brand-mark">SÃO <b>TOMÉ</b></span>
+                <small>BOA VISTA</small>
+                <p>Tradição, qualidade e sabor em produtos lácteos.</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Entre em contato</h3>
+                <p><strong>Laticínios São Tomé LTDA</strong></p>
+                <p>CNPJ: 00.858.087/0001-32</p>
+                <p>Rodovia MG 133, s/n — Km 28,5<br>Piau — MG, 36157-000</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Laticínios São Tomé. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
